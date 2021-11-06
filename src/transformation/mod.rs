@@ -10,7 +10,7 @@ pub use self::convex_hull3::{check_convex_hull, convex_hull};
 mod convex_hull2;
 #[cfg(feature = "dim3")]
 mod convex_hull3;
-pub(crate) mod convex_hull_utils;
+pub mod convex_hull_utils;
 
 /// Approximate convex decomposition using the VHACD algorithm.
 pub mod vhacd;
